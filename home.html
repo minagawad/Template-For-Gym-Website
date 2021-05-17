@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Gutim Template">
+    <meta name="keywords" content="Gutim, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css" type="text/css">   
+    <script src="script.js"></script>   
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+    integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <title>GYM Website</title>
+    </head>
+    <body>
+<header>
+                <div class="topnav" id="myTopnav">
+                        <a  class="active" href="#home">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#classes">Classes</a>
+                       <a href="#blog">Blog</a>
+                       <a href="#GALLERY">Gallery</a>
+                       <a href="#contactus">Contacts</a>
+                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                          <i class="fa fa-bars"></i>
+                        </a>
+                    </div>
+</header>
+<div class="hero-section" id="home">    
+                    <div class="row">
+                            <div class="col-8">
+                                <div class="hero-text">
+                                    <span>FITNESS ELEMENTS</span>
+                                    <h1>BMI CALCULATOR</h1>
+                                    <p>Gutim comes packed with the user-friendly BMI Calculator<br /> shortcode which lets</p>
+                                    <a href="#" class="primary-btn">Read More</a>
+                                </div>
+                            </div>
+                        </div>   
+                    </div>  
+                    <div class="row" id="about">
+                            <div class="col-12">
+                                    <h1   class="headh">About Us</h1>
+                                    </div>
+                                    <div class="row" style="padding:5%;">
+                                    <div class="col-6 about">
+                                     <a href="">
+                                         <video id="myVideo" controls data-play="hover" muted="muted" onmouseover="playVid()" onmouseout="pauseVid()">
+                                             <source src="videos/gym.mp4" type="video/mp4">
+                                             <source src="videos/gym.ogg" type="video/ogg">
+                                                
+                                         </video>
+                                     </a>
+                                    </div>
+                                    <div class="col-6 about">
+                                                    <h2 class="text">Story About Us</h2>
+                                            <p class="parag1" style="font-size:16px;">Lorem ipsum proin gravida nibh vel velit auctor aliquet. Aenean pretium
+                                                    sollicitudin, nascetur auci elit consequat ipsutissem niuis sed odio sit amet nibh vulputate
+                                                    cursus a amet.</p>
+                                                <p class="parag2" style="font-size:16px;">Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, gravida
+                                                    quam semper libero sit amet.</p>
+                                                <div class="at-author">
+                                                    <h4>Lettie Chavez</h4>
+                                                    <span>CEO - Founder</span>  
+                                    </div>
+                                    </div>
+                                    </div>  
+                                    <div class="row" style="padding:5%;">
+                                        <div class="column">
+                                          <div class="card"  onmouseover="this.style.backgroundColor='#e05d46'" onmouseout="this.style.backgroundColor='#444'">
+                                            <p><i class="fas fa-dumbbell" style="font-size:50px; color:white;"></i></p>
+                                            <h3   id="count1" style="font-size:35px; color:white;"></h3>
+                                            <p  style="font-size:25px; color:white;">PROGRAMS
+                                                </p>
+                                          </div>
+                                        </div>
+                                      
+                                        <div class="column">
+                                          <div class="card"  onmouseover="this.style.backgroundColor='#e05d46'" onmouseout="this.style.backgroundColor='#444'">
+                                            <p><i class="fa fa-location-arrow"  style="font-size:50px; color:white;"></i></p>
+                                            <h3  id="count2" style="font-size:35px; color:white;"></h3>
+                                            <p  style="font-size:25px; color:white;">LOCATIONS</p>
+                                          </div>
+                                        </div>
+                                        
+                                        <div class="column">
+                                          <div class="card"   onmouseover="this.style.backgroundColor='#e05d46'" onmouseout="this.style.backgroundColor='#444'">
+                                            <p><i class="fa fa-users"  style="font-size:50px; color:white;"></i></p>
+                                            <h3 id="count3" style="font-size:35px; color:white;" ></h3>
+                                            <p  style="font-size:25px; color:white;">Members</p>
+                                          </div>
+                                        </div>
+                                        
+                                        <div class="column">
+                                          <div class="card"  onmouseover="this.style.backgroundColor='#e05d46'" onmouseout="this.style.backgroundColor='#444'">
+                                            <p><i class="fa fa-smile-o"  style="font-size:50px; color:white;"></i></p>
+                                            <h3 id="count4" style="font-size:35px; color:white;"></h3>
+                                            <p  style="font-size:25px; color:white;">COACHES</p>
+                                          </div>
+                                        </div>
+                                      </div>  
+                                   </div>
+                                   <br>
+                                   <div class="row" style="padding:5%;"  id="classes">
+                                        <h1  class="headh">Classes</h1>
+                                        
+                                    <div class="col-4 about">
+
+                                        <img src="images/img1.jpg" height="450px"  width="100%">
+                                    </div>
+                                    <div class="col-8 about" >
+                                <div class="container">
+                                    <h3>REGISTER NOW</h3>
+                                    <form action="/action_page.php">
+                                      <div class="row">
+                                        <div class="col-50">
+                                          <label for="fname">First Name</label>
+                                        </div>
+                                        <div class="col-50">
+                                          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                                        </div>
+                                      </div>
+                                      <div class="row">
+                                        <div class="col-50">
+                                          <label for="lname">Last Name</label>
+                                        </div>
+                                        <div class="col-50">
+                                          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                                        </div>
+                                      </div>
+                                      <div class="row">
+                                        <div class="col-50">
+                                          <label for="em">email</label>
+                                        </div>
+                                        <div class="col-50">
+                                            <input type="email" id="em" name="emaill" placeholder="Your email..">
+                                        </div>
+                                      </div>
+                                      <div class="row">
+                                        <div class="col-50">
+                                          <label for="tell">NO mobile*</label>
+                                        </div>
+                                        <div class="col-50">
+                                         <input type="tel" id="tell" name="tele"     placeholder="Your number phone..">
+                                        </div>
+                                      </div>
+                                      <div class="row">
+                                        <input type="submit" id="submit_button" value="Submit">
+                                      </div>
+                                    </form>
+                                  </div>
+                                </div>
+                            </div>
+                        
+                        
+                                <!------------------------------------------------------------------------------------------>
+                                <h2 style="text-align: center;">UNLIMITED CLASSES</h2>
+                                <div class="grid-container">
+                                    <div class="grid-item">   <img src="images/classes/classes-1.jpg"  class="responsive" onclick="image1()">
+                                        <div id="imgg"> Yoga</div></div>
+                                            
+                                    <div class="grid-item">  <img src=" images/classes/classes-4.jpg"  class="responsive" onclick="image2()">
+                                        <div id="imgg1"> Dance
+                                           </div></div>
+                                    <div class="grid-item"> <img src="images/classes/classes-9.jpg"  class="responsive" onclick="image3()">
+                                        <div id="imgg2"> Box
+                                            </div></div>
+                                    <div class="grid-item"> <img src="images/classes/classes-5.jpg"  class="responsive" onclick="imggggg()">
+                                        <div id="imgggg"> Karate
+                                            </div></div>
+                                    <div class="grid-item"> <img src="images/classes/classes-3.jpg"  class="responsive" onclick="imggggg1()">
+                                        <div id="imgggg1"> Karate
+                                           </div></div>
+                                    <div class="grid-item">  <img src="images/classes/2.jpg"  class="responsive" onclick="imggggg2()">
+                                        <div id="imgggg2"> Karate
+                                           </div></div>
+                                    <div class="grid-item"> <img src="images/classes/classes-9.jpg"  class="responsive" onclick="image4()">
+                                        <div id="imggg"> Running
+                                            </div></div>
+                                    <div class="grid-item">   <img src="images/classes/classes-8.jpg"  class="responsive" onclick="image5()">
+                                        <div id="imggg1"> Weight 
+                                            </div></div>
+                                    <div class="grid-item">   <img src="images/classes/classes-8.jpg"  class="responsive" onclick="image6()">
+                                        <div id="imggg2"> Crossfit
+                                            </div></div>
+                                  </div>
+                                  <br>
+                                  <div  id="blog" class="row" style="padding-right:5%; padding-left:5%;">
+                                        <h1   class="headh">Blog</h1>                   
+                                                         <div class="col-4" style="height: 350px;" >
+                                       
+                                      <div id="imgblog1" onmouseover="change1()" onmouseout="changee1()"  >
+                                        <h1 style="color: white;">Gym</h1>
+                                        <p style="color: white;">10 States At Risk of Rural </p>
+                                      </div>
+                        <div>
+                            <time datetime="February 17, 2019">February 17, 2019</time>
+                                        <a href="#" class="tag">#Gym</a><br>
+                                        <h4>10 States At Risk of Rural Hospital Closures</h4>
+                        </div>
+                                      </div>
+                                        
+                                            
+                                    
+                                      <div class="col-4  " style="height: 350px;" >
+                                       
+                                        <div id="imgblog2" onmouseover="change2()" onmouseout="changee2()" >
+                                            <h1 style="color: white;">Sport</h1>
+                                            <p style="color: white;">Diver who helped save Thai soccer team </p>
+                                        </div>
+                          <div>
+                            <time datetime="February 17, 2019">February 17, 2019</time>
+                                        <a href="#" class="tag">#Sport</a><br>
+                                        <h4>Diver who helped save Thai soccer team</h4>
+                          </div>
+                                        </div>
+                                        <div class="col-4  " style="height: 350px;" >
+                                       
+                                            <div id="imgblog3" onmouseover="change3()" onmouseout="changee3()">
+                                                <h1 style="color: white;">Body</h1>
+                                                <p style="color: white;">Man gets life in prison for stabbing </p>
+                                            </div>
+                              <div>
+                                <time datetime="February 17, 2019">February 17, 2019</time>
+                                <a href="#" class="tag">#Body</a><br>
+                                <h4>Man gets life in prison for stabbing</h4>
+                              </div>
+                                            </div>
+                                </div>
+                        
+                        
+                        
+                        
+                        
+                                <div class="row" style="padding:5%;">
+                                    <div class="col-4  " style="height: 350px;" >
+                                       
+                                      <div id="imgblog4" onmouseover="change4()" onmouseout="changee4()" >
+                                        <h1 style="color: white;">Gym</h1>
+                                        <p style="color: white;">10 States At Risk of Rural </p>
+                                      </div>
+                        <div>
+                            <time datetime="February 17, 2019">February 17, 2019</time>
+                                        <a href="#" class="tag">#Running</a><br>
+                                        <h4>Russia's first male synchronised swimmer</h4>
+                        </div>
+                                      </div>
+                                        
+                                            
+                                    
+                                      <div class="col-4  " style="height: 350px;" >
+                                       
+                                        <div id="imgblog5" onmouseover="change5()" onmouseout="changee5()">
+                                            <h1 style="color: white;">Running</h1>
+                                            <p style="color: white;">Russia's first male synchronised swimmer </p>
+                                        </div>
+                          <div>
+                            <time datetime="February 17, 2019">February 17, 2019</time>
+                            <a href="#" class="tag">#Gym</a><br>
+                            <h4>NYC measles vaccination order prevails in court</h4>
+                          </div>
+                                        </div>
+                                        <div class="col-4  " style="height: 350px;" >
+                                       
+                                            <div id="imgblog6"  onmouseover="change6()" onmouseout="changee6()">
+                                                <h1 style="color: white;">Gym</h1>
+                                                <p style="color: white;">NYC measles vaccination order prevails in court </p>
+                                            </div>
+                              <div>
+                                <time datetime="February 17, 2019">February 17, 2019</time>
+                                        <a href="#" class="tag">#Sport</a><br>
+                                        <h4>The Week in Pictures: April 11 - 18</h4>
+                              </div>
+                                            </div>
+                                </div>
+                        
+                               
+                                
+                        
+                        
+                        
+                                <div class="row" style="padding-right:5%; padding-left:5%;">
+                                    <div class="col-4  " style="height: 350px;" >
+                                       
+                                      <div id="imgblog7"  onmouseover="change7()" onmouseout="changee7()">
+                                        <h1 style="color: white;">Gym</h1>
+                                        <p style="color: white;">10 States At Risk of Rural </p>
+                                      </div>
+                        <div>
+                            <time datetime="February 17, 2019">February 17, 2019</time>
+                            <a href="#" class="tag">#Gym</a><br>
+                            <h4>Man who pretended to be faces new charges</h4>
+                        </div>
+                                      </div>
+                                        
+                                            
+                                    
+                                      <div class="col-4  " style="height: 350px;" >
+                                       
+                                        <div id="imgblog8"  onmouseover="change8()" onmouseout="changee8()">
+                                          <h1 style="color: white;">Gym</h1>
+                                          <p style="color: white;">10 States At Risk of Rural </p>
+                                        </div>
+                          <div>
+                            <time datetime="February 17, 2019">February 17, 2019</time>
+                                        <a href="#" class="tag">#Body</a><br>
+                                        <h4>10 States At Risk of Rural Hospital Closure</h4>
+                          </div>
+                                        </div>
+                                        <div class="col-4  " style="height: 350px;" >
+                                       
+                                            <div id="imgblog9"  onmouseover="change9()" onmouseout="changee9()">
+                                              <h1 style="color: white;">Gym</h1>
+                                              <p style="color: white;">10 States At Risk of Rural </p>
+                                            </div>
+                              <div>
+                                <time datetime="February 17, 2019">February 17, 2019</time>
+                                <a href="#" class="tag">#Gym</a><br>
+                                <h4>Lenny Kravitz gives Arch Digest a look inside</h4>
+                              </div>
+                                            </div>
+                                </div>
+                                    <br>
+                            <div class="row" id="GALLERY">
+                                    <div class="col-12">
+                                            <h1  class="headh">Gallery</h1>
+                                        <ul>
+                                            <li><a href="#" onclick="show_all();" id="all_agllery"> ALL GALLERY</a> </li>
+                                            <li> <a href="#" onclick="show_fitness()" id="fitness">FITNESS</a> </li>
+                                            <li><a href="#" onclick="show_coiching()" id="coiching">COACHING</a> </li>
+                                            <li> <a href="#" onclick="show_event()" id="event">EVENT</a></li>
+                                            <li> <a href="#" onclick="show_others()" id="other">OTHER</a> </li>
+                                        </ul>
+                            
+                                    </div>
+                                    <div class="row" style="margin-left: 5%; margin-right: 5%;">
+                                        <div class="col-6 gallery" id="img1">
+                                            <img src="images/gallery/gallery-1.jpg" class="responsiveimg">
+                                        </div>
+                                        <div class="col-6 gallery" style="padding:5px;">
+                                            <div class="row">
+                                                <div class="col-6 gallery" id="img2">
+                                                    <img src="images/gallery/gallery-2.jpg" class="responsiveimg">
+                                                </div>
+                                                <div class="col-6 gallery">
+                            
+                                                    <div class="row">
+                                                        <div class="col-12 " id="img3">
+                                                            <img src="images/gallery/gallery-3.jpg" class="responsiveimg">
+                            
+                                                        </div>
+                                                        <div class="col-12" id="img4">
+                                                            <img src="images/gallery/gallery-4.jpg" class="responsiveimg">
+                            
+                                                        </div>
+                            
+                                                    </div>
+                            
+                                                </div>
+                            
+                                            </div>
+                            
+                                        </div>
+                            </div>
+                            
+                                   
+                                    <div class="row" style="margin-left: 5%; margin-right: 5%;">
+                                        <div class="col-6 gallery">
+                                            <div class="row">
+                                                <div class="col-6 gallery" id="img5">
+                                                    <img src="images/gallery/gallery-5.jpg" class="responsiveimg">
+                                                </div>
+                                                <div class="col-6 gallery" id="img6">
+                                                    <img src="images/gallery/gallery-6.jpg" class="responsiveimg">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6 gallery" id="img7">
+                                            <img src="images/gallery/gallery-7.jpg" class="responsiveimg">
+                                        </div>
+                                    </div>
+                                </div>           
+                                <br>
+                                   
+                                <div class="row"  id="contactus">
+                                    <div class="col-12">
+                                            <h1  class="headh">Contact US</h1>
+                                        <div class="mapouter">
+                                            <div class="gmap_canvas"><iframe width="100%" height="500" id="gmap_canvas"
+                                                    src="https://maps.google.com/maps?q=university%20of%20san%20francisco&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                                                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                                                    href="https://www.emojilib.com"></a></div>
+                                          
+                                        </div>
+                                    </div>
+                                    <div class="row" style="margin-left: 5%;margin-right: 5%;">
+                                        <div class="col-4" id="contact_info">
+                                            <h1>CONTACT US</h1>
+                                            <div class="row">
+                                                <div class="row">
+                                                    <div class="col-4">
+                                                        <span class="iconcontainer">
+                                                            <i class="fa fa-location-arrow" style="font-size:35px; padding-top:20px;"></i>                                    
+                                                        </span>
+                                    
+                                                    </div>
+                                                    <div class="col-8">
+                                                        <div class="textcontainer">
+                                                            <h5 class="contact_h5" >Our Location</h5>
+                                                            <p class="contact_p">60-49 Road 11378 New York</p>
+                                    
+                                                        </div>
+                                    
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-4">
+                                                        <span class="iconcontainer">
+                                                            <i class="fa fa-mobile" style="font-size:35px; padding-top:20px;"></i>                                    
+                                                        </span>
+                                    
+                                                    </div>
+                                                    <div class="col-8">
+                                                        <div class="textcontainer">
+                                                            <h5 class="contact_h5">Phone:</h5>
+                                                            
+                                                            <p class="contact_p">+65 11.188.888</p>
+                                    
+                                                        </div>
+                                    
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-4">
+                                                        <span class="iconcontainer">
+                                                            <i class="fa fa-at" style="font-size:35px; padding-top:20px;"></i>          
+                                                  </span>
+                                    
+                                                    </div>
+                                                    <div class="col-8">
+                                                        <div class="textcontainer">
+                                                            <h5 class="contact_h5">Mail</h5>
+                                                           
+                                                            <p class="contact_p">hellocolorlib@ gmail.com</p>
+                                    
+                                                        </div>
+                                    
+                                                    </div>
+                                                </div>
+                                    
+                                    
+                                            </div>
+                                    
+                                    
+                                        </div>
+                                        <div class="col-8" id="contact-message">
+                                            <h1>LEAVE A COMMENT</h1>
+                                            <div class="row">
+                                                <form method="GET" action="#">
+                                                    <div class="row">
+                                                        <div class="col-6">
+                                                            <input type="text" required placeholder="Your name" id="contact_name">
+                                    
+                                                        </div>
+                                                        <div class="col-6">
+                                                            <input type="email" required placeholder="Your Email" id="contact_email">
+                                    
+                                                        </div>
+                                                        <div class="col-12">
+                                                            <textarea placeholder="Your messages" id="contact_textarea"></textarea>
+                                                            <button type="submit" id="submit_button">Send Message</button>
+                                    
+                                                        </div>
+                                    
+                                                    </div>
+                                    
+                                    
+                                                </form>
+                                            </div>
+                                    
+                                        </div>
+                                    </div>
+                                    </div>
+
+      
+		<footer class="footer-distributed">
+                
+                            <div class="footer-left">
+                          <img src="images/logo.png">
+                                <h3>Best<span>GYM</span></h3>
+                
+                                <p class="footer-links">
+                                    <a href="#home">Home</a>
+                                    |
+                                    <a href="#blog">Blog</a>
+                                    |
+                                    <a href="#about">About</a>
+                                    |
+                                    <a href="#contact">Contact</a>
+                                </p>
+                
+                                <p class="footer-company-name">© 2020 GYM Class Work Out. GYM.</p>
+                            </div>
+                
+                            <div class="footer-center">
+                                <div>
+                                    <i class="fa fa-map-marker"></i>
+                                      <p><span>309 - Rupa Solitaire,
+                                         Bldg. No. A - 1, Sector - 1</span>
+                                        Mahape, Navi Mumbai - 400710</p>
+                                </div>
+                
+                                <div>
+                                    <i class="fa fa-phone"></i>
+                                    <p>+91 22-27782183</p>
+                                </div>
+                                <div>
+                                    <i class="fa fa-envelope"></i>
+                                    <p><a href="mailto:support@gym.com">support@gym.com</a></p>
+                                </div>
+                            </div>
+                            <div class="footer-right">
+                                <p class="footer-company-about">
+                                    <span>About the company</span>
+                                    We offer training and skill building courses across Technology, Design, Management, Science and Humanities.</p>
+                                <div class="footer-icons">
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                    <a href="#"><i class="fab fa-youtube"></i></a>
+                                </div>
+                            </div>
+                        </footer>                              
+                        <button onclick="topFunction()" id="myBtn" title="Go to top">TOP</button>
+                        
+    </body>
+    </html>
